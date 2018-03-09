@@ -1,5 +1,5 @@
-# Data-Science-Portfolio
-Portfolio containing examples of completed Data Science projects, ongoing projects, as well as current research and related interests
+# Portfolio
 
-Hello and Welcome to my GitHub Data Science Portfolio.
+### Hello and Welcome to my GitHub Portfolio.
 
+The following portfolio contains my academic achievements, research interests, community involvement, etc. I will be constantly updating the portfolio so make sure to check back frequently.
