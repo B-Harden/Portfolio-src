@@ -1,7 +1,9 @@
 # Portfolio
 Brandon Harden
 MS Data Science Spr. '18 (Lipscomb University)
+
 BS Economics Fall '14 (University of Tennessee at Chattanooga)
+
 bharden@mail.lipscomb.edu
 
 
