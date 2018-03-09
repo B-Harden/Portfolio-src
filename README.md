@@ -6,7 +6,7 @@ Lipscomb University: MS Data Science - Spring '18
 University of Tennessee at Chattanooga: BS Economics - Fall '14 
 
 bharden@mail.lipscomb.edu
-
+#
 
 ### Hello and Welcome to my GitHub Portfolio.
 
