@@ -1,6 +1,7 @@
 # Tech Company Employee Mental Health Analysis
-## This project involved analyzing the mental health of employees of tech companies that responded to a survey. Project instructions are listed below.
+## This project involved analyzing the mental health of employees of tech companies that responded to a survey. 
 
+###  Project instructions are listed below.
 Use the Kaggle Mental Health in Tech Survey data from https://www.kaggle.com/osmi/mental-health-in-tech-2016 to complete the following tasks:
 
 1.	Clean the data so that the gender field is (F)emale, (M)ale, or (U)ndefined.
