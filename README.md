@@ -1,5 +1,15 @@
-# Data-Science-Portfolio
-Portfolio containing examples of completed Data Science projects, ongoing projects, as well as current research and related interests
+# Portfolio
+Brandon Harden
 
-Hello and Welcome to my GitHub Data Science Portfolio.
+Lipscomb University: MS Data Science - Spring '18
+
+University of Tennessee at Chattanooga: BS Economics - Fall '14 
+
+bharden@mail.lipscomb.edu
+#
+
+### Hello and Welcome to my GitHub Portfolio.
+
+The following portfolio contains my academic achievements, research interests, community involvement, etc. I will be constantly updating the portfolio so make sure to check back frequently.
+
 
