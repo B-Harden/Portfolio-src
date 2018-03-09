@@ -1,9 +1,9 @@
 # Portfolio
 Brandon Harden
 
-MS Data Science - Spr. '18 (Lipscomb University)
+Lipscomb University: MS Data Science - Spring '18
 
-BS Economics - Fall '14 (University of Tennessee at Chattanooga)
+University of Tennessee at Chattanooga: BS Economics - Fall '14 
 
 bharden@mail.lipscomb.edu
 
