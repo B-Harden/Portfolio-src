@@ -6,10 +6,12 @@ Tutorials include:
 
 ● Creating a Compute Instance in GCP
 
-● Storing and retreiving data in Google DataStore
+● Storing and retrieving data in Google DataStore
 
 ● Creating a Recommendation System using GCP
 
 ● Querying and creating Machine Learning (ML) datasets from big data stored on Google's 'Big Query'
 
 ● Creating and running ML models in order to predict the demand for NY taxi cabs
+
+● Training on how to use GCP APIs such as Vision API and Translate API in order to detect 'happiness' in pictures, translate foreign texts, etc.
