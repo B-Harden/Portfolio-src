@@ -1,4 +1,4 @@
-# Google Cloud Products
+# Google Cloud Products (GCP)
 
 The following iPython notebooks contain code used to complete tutorials introducing me to Google Cloud Products (GCP).
 
