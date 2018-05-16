@@ -12,4 +12,4 @@ Tutorials include:
 
 ● Querying and creating Machine Learning (ML) datasets from big data stored on Google's 'Big Query'
 
-● Creating and running ML models in the cloud using GCP
+● Creating and running ML models in order to predict the demand for NY taxi cabs
