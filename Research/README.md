@@ -1,0 +1,1 @@
+The following is personal research I conducted on the side of my University's courseload. This personal research lead to a full presentation at Lipscomb University's 2018 Student Scholars Symposium. *Please not that the research paper is in draft form is simply me expressing my ideas in hopes of continued research and application in the future.
