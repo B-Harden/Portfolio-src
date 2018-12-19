@@ -1,0 +1,52 @@
+Reporting
+Metro Nashville Davidson County Police Incidents
+Via
+Power Bi
+(metadata)
+
+* Data Source: Data acquired from Nashville Government’s Open Data Portal API listed under their Metro Nashville Police Department Incident Data report page.
+o API Endpoint: https://data.nashville.gov/resource/napa-nfy2.csv
+* The column report_type_description provides a text description based off the code within the column report_type. The column report_type_description contained blank columns even though the column report_type had no missing data. Therefore, I added a conditional column, titled report_type_description2, that entered a valid report type description for the code listed in column report_type.. Afterwards, I deleted the column report_type_description and renamed report_type_description2 to report_type_description.
+Weapon_primary code=16 is listed as unknown in the metadata but is listed as Unarmed in the actual data.
+* Renamed column offense_description to offense_nibrs_description
+
+* victim_gender ; blanks filled with ‘U’ for unknown
+o victim_race ; blanks filled with ‘U’ for unknown
+o victim_ethnicity ; blanks filled with ‘Unknown’ 
+o victim_county_resident; blanks filled with ‘U’ for unknown
+
+
+* Added the suffix ‘code’ to any column that contains a code but does not list it in it’s column name OR added the suffix ‘description’ to any column that contains a description but does not list it in it’s column name
+o report_type  ->  report_type_code
+o offense_nibrs  ->  offense_nibrs_code
+o weapon_primary  ->  weapon_primary_code
+o victim_type  -> victim_type_code
+o victim_gender  ->  victim_gender_code
+o victim_race  ->  victim_race _code
+o victim_ethicity  ->  victim_ethicity_description
+o victim_county_resident ->  victim_county_resident_description
+* Removed the following columns due to redundancy in data or not including data at all:
+o mapped_location
+o mapped_location_address
+o mapped_location_city
+o mapped_location_state
+o mapped_location_zip
+o :@computed_region_3aw5_2wv7
+o :@computed_region_b9k3_hpc2
+o :@computed_region_gxvr_9jxz
+o :@computed_region_p6sk_2acq
+o :@computed_region_wvby_4s8j
+* The following columns were removed because they are Metro Nashville Police Department (MNPD) specific codes and therefore do not include a description. I believe they do not contain a description due to public safety, privacy, etc. reasons.
+o rpa
+o zone
+* Added a conditional column titled victim_race_code_description that adds descriptions for the codes in the column victim_race_code.
+o victim_race_code  -> victim_race_code_description
+* Split the column incident_occured, which contains date/time, into two separate date and time columns for reporting purposes.
+o incident_occurred  -> incident_occurred _date AND incident_occurred _time
+* Split the column incident_reported, which contains date/time, into two separate date and time columns for reporting purposes.
+o incident_reported -> incident_reported _date AND incident_reported _time
+
+
+Brandon Harden
+Data Storyteller
+
