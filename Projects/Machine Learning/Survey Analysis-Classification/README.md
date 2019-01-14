@@ -13,11 +13,4 @@ d.	How many people report a history of depression and also have a family history
 e.	Is there a correlation between US states and prevalence of mental illness?
 f.	Is there a higher number of employees reporting mental illness in large companies (> 500 employees) than in smaller companies?
 
-https://bchi.bigcitieshealth.org/indicators/1830/2737
-http://hcup-us.ahrq.gov/tech_assist/centdist.jsp
-https://data.gov.uk/dataset/england-nhs-connecting-for-health-organisation-data-service-data-files-of-general-medical-practices
-https://bigml.com/gallery/datasets/consumer_and_retail
-http://www.marketingedge.org/marketing-programs/data-set-library ($)
-
-
 ### Data set contained in "mental_health.csv"
