@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+       <!-- <script src="{{ url_for('static', filename='success.js') }}"></script> -->
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+
+                document.querySelector('#form').onsubmit = () => {
+
+                    // Initialize new request
+                    const request = new XMLHttpRequest();
+                    const flight_id= '{{ flight_id }}'
+                    // const currency = document.querySelector('#currency').value;
+                    request.open('POST', '/test');
+
+                    // Callback function for when request completes
+                    request.onload = () => {
+
+                            // Extract JSON data from request
+                            const data = JSON.parse(request.responseText);
+
+                            // Update the result div
+                            if (data.success) {
+
+                                var origin = document.createElement('li');
+                                var destination = document.createElement('li');  
+                                var duration = document.createElement('li');
+                                
+                                origin.innerHTML = `Flight origin: ${data.origin}`;
+                                destination.innerHTML = `Flight destination: ${data.destination}`;
+                                duration.innerHTML = `Flight duration: ${data.duration} minutes`;
+
+                                let flight_info = [origin, destination, duration];
+
+                                flight_info.forEach(function(flight) {
+                                    document.querySelector('#result').append(flight);
+                                }); 
+                                
+                            }
+
+                            else {
+                                document.querySelector('#result').innerHTML = 'There was an error.';
+                            }
+                        }
+
+                        // Add data to send with request
+                        const data = new FormData();
+                        data.append('flight_id', flight_id);
+
+                        // Send request
+                        request.send(data);
+                        return false;
+                };
+
+            });
+
+        </script> 
+    </head>
+    <body>
+        <div class="container">
+            {% block body %}
+            {% endblock %}
+        </div>
+
+    </body>
+</html>

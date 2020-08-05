@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Success!
+{% endblock %}
+
+{% block body %}
+    <h1>Success!</h1>
+
+    <div>You have successfully booked your flight.</div>
+    <br>
+
+    <span>
+    Click
+        
+       <!-- <a id="info" href="{{ url_for('test', flight_id= flight_id) }}">here</a> -->
+    below to view your flight's travel information.
+    </span> 
+    <br>
+    <br>
+    <form id="form">
+        <button type="submit", class="btn btn-primary">Flight Info</button>
+       <!-- <input type="submit" value="Flight Info">  -->
+     </form>
+    <br>
+
+    <!-- <div id='result'></div>  -->
+    <ul id="result">
+    </ul> 
+
+{% endblock %}
+
+<!--     --> >
