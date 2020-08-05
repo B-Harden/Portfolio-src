@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website!</title>
+    </head>
+    <body>
+        {% if new_year %}
+            <h1>Yes, Happy New Year!</h1>
+        {% else %}
+            <h1>NO</h1>
+        {% endif %}
+
+        <h1>Names</h1>
+
+        <ul>
+            {% if present %}
+                {% for name in names %}
+                    <li>{{ name }}</li>
+                {% endfor %}
+            {% else %}
+            <div>No names present</div>
+            {% endif %}
+        </ul>
+
+    </body>
+</html>

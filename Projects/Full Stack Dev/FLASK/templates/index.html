@@ -1,0 +1,13 @@
+{% extends "layouts.html" %}
+
+{% block heading %}
+    First Page
+{% endblock %}
+
+{% block body %}
+    <p>
+        Welcome to the website!
+    </p>
+
+    <a href="{{ url_for('more') }}">Click here to second page.</a>
+{% endblock %}
